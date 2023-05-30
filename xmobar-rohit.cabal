@@ -1,5 +1,5 @@
 cabal-version:   3.0
-name:            example
+name:            xmobar-rohit
 version:         0.1.0.0
 license:         NONE
 author:          Joe
@@ -8,7 +8,7 @@ build-type:      Simple
 
 common warnings
     ghc-options: -Wall -threaded
-executable example
+executable xmobar-rohit
     import:           warnings
     main-is:          Main.hs
     build-depends:    base, xmobar
